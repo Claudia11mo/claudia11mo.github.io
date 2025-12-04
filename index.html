@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E. SERVICE S.R.L.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", sans-serif;
+            background-color: #f6f6f6;
+            color: #222;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            z-index: 1000;
+            padding: 20px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+        }
+        section {
+            padding: 120px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .about img {
+            width: 50%;
+            border-radius: 12px;
+        }
+        .services, .benefits, .process {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .contact, .form-section {
+            height: 100vh;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        form {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea {
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #bbb;
+        }
+        button {
+            padding: 14px;
+            border: none;
+            background: #222;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #111;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo"><strong>I.E. SERVICE S.R.L.</strong></div>
+        <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#benefits">Ventajas</a></li>
+            <li><a href="#process">Proceso</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+    <h1>I.E. SERVICE S.R.L.</h1>
+    <h3>Consultoría en datos y seguridad digital con una visión Postmoderna.</h3>
+    <p>En I.E. SERVICE S.R.L. combinamos pensamiento analítico y creatividad tecnológica para transformar datos en decisiones de alto impacto. Nuestro enfoque se centra en diseñar soluciones ágiles, seguras y personalizadas para empresas que buscan evolucionar en entornos digitales complejos.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <div>
+        <h2>Quiénes Somos en Realidad</h2>
+        <p>Somos un equipo especializado en consultoría de datos, seguridad informática y desarrollo de software empresarial. Nuestro trabajo se basa en interpretar el comportamiento digital de cada organización para construir soluciones prácticas y sostenibles. Analizamos infraestructuras, identificamos vulnerabilidades y transformamos información dispersa en sistemas inteligentes. Conectamos tecnología con estrategia, ayudando a las empresas a operar con mayor precisión, seguridad y confianza.</p>
+    </div>
+    <img src="https://media.istockphoto.com/id/2209261187/photo/portrait-of-coworkers-at-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=bTcBjF60uui3YgqUUCvqsITRhGuBfk1owaXMVXhbqvE=" alt="Equipo de trabajo">
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>Lo Que Realmente Hacemos</h2>
+    <div class="services">
+        <div>
+            <h3>Consultoría de Datos</h3>
+            <p>Ayudamos a las empresas a comprender, ordenar y optimizar sus datos para obtener decisiones estratégicas más precisas. Creamos modelos de análisis que permiten visualizar el rendimiento real y proyectar riesgos y oportunidades. Nuestro enfoque asegura resultados medibles y totalmente adaptados al negocio.</p>
+        </div>
+        <div>
+            <h3>Seguridad de la Información</h3>
+            <p>Diseñamos sistemas de protección digital orientados a detectar vulnerabilidades antes de que se conviertan en amenazas. Implementamos controles avanzados, auditorías y monitoreo continuo. La meta: blindar tanto la infraestructura como los procesos internos.</p>
+        </div>
+        <div>
+            <h3>Software & IT Consulting</h3>
+            <p>Guiamos a las empresas en la selección, desarrollo e integración de soluciones tecnológicas modernas. Alineamos herramientas digitales con objetivos reales, simplificando procesos y maximizando eficiencia. Nuestro acompañamiento abarca desde la arquitectura inicial hasta la implementación final.</p>
+        </div>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits">
+    <h2>Por Qué Elegirnos</h2>
+    <div class="benefits">
+        <div>
+            <h3>Visión Estratégica y Técnica</h3>
+            <p>Integramos análisis profundo con experiencia operativa, lo que nos permite interpretar las necesidades del cliente más allá de lo evidente.</p>
+        </div>
+        <div>
+            <h3>Soluciones Flexibles y Personalizadas</h3>
+            <p>Cada empresa es única. Adaptamos herramientas, metodologías y tiempos para obtener resultados reales y sostenibles.</p>
+        </div>
+        <div>
+            <h3>Compromiso con la Seguridad</h3>
+            <p>Nuestros procesos priorizan la protección integral, garantizando continuidad y confianza en cada proyecto.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+    <h2>Cómo Desarrollamos Tu Proyecto</h2>
+    <div class="process">
+        <div>
+            <h3>1. Diagnóstico Inicial</h3>
+            <p>Analizamos el entorno tecnológico y los objetivos reales del cliente para definir un punto de partida sólido.</p>
+        </div>
+        <div>
+            <h3>2. Diseño & Implementación</h3>
+            <p>Construimos soluciones a medida que integran datos, seguridad y tecnología, listas para escalar.</p>
+        </div>
+        <div>
+            <h3>3. Optimización Continua</h3>
+            <p>Monitoreamos, ajustamos y mejoramos los sistemas para asegurar resultados medibles a largo plazo.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Conectemos y Transformemos tu Operación</h2>
+    <p>Si estás listo para llevar tus procesos digitales a un nuevo nivel, estamos aquí para acompañarte. Escríbenos y te responderemos con la información exacta que necesitas.</p>
+    <p><strong>Email:</strong> hello@ieservice.services</p>
+    <p><strong>Dirección:</strong> Estrada 1099 Piso 8, Dpto B, Ciudad de Buenos Aires, 1424</p>
+</section>
+
+<!-- FORM -->
+<section id="form" class="form-section">
+    <h2>Escríbenos Directamente</h2>
+    <p>Completa el formulario y nos pondremos en contacto contigo.</p>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea rows="4" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 I.E. SERVICE S.R.L. — Soluciones Digitales con Visión Postmoderna
+</footer>
+
+</body>
+</html>
